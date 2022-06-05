@@ -3,8 +3,8 @@ import { View, Text, StyleSheet, TouchableOpacity, ScrollView, Image } from 'rea
 import { useGlobalState } from '../state';
 import DropDownPicker from 'react-native-dropdown-picker';
 import { types } from '../data/types';
-import Counter from '../Components/Counter';
 import { globalStyles } from '../styles/global';
+import Counter from '../Components/Counter';
 
 const Favorite = ({ navigation }) => {
   const [favoritePokemons] = useGlobalState('favoritePokemons');
