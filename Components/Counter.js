@@ -24,7 +24,7 @@ export default Counter;
 
 const styles = StyleSheet.create({
     notification: {
-        borderRadius: '60%',
+        borderRadius: 8,
         position: 'absolute',
         backgroundColor: '#FA5C4D',
         right: '1%',
